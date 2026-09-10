@@ -1,11 +1,61 @@
+.img{
+  height: 200px;
+ border-radius: 5px;
+ margin: 20px;
+}
+.img-3{
+   height: 200px;
+   width: 270px;
+    margin: 20px;
+}
+.img-10{
+      height: 200px;
+      width: 270px;
+       margin: 20px;
+
+
+}
+.img-8{
+      height: 200px;
+      width: 270px;
+       margin: 20px;
+
+
+}
+.img-4{
+      height: 200px;
+      width: 280px;
+       margin: 20px;
+
+
+}
+.img-5{
+      height: 200px;
+      width: 280px;
+       margin: 20px;
+
+
+}
+
+.img-6{
+      height: 200px;
+      width: 280px;
+       margin: 20px;
+
+
+}
+.parent{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin: 10px;
+
+   
+}
 .box{
 
 
 }
-.image{
-   display:inline-block
 
-}
-.btn-text{
 
-}
+
