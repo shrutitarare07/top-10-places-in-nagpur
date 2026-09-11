@@ -1,61 +1,125 @@
-.img{
-  height: 200px;
- border-radius: 5px;
- margin: 20px;
+.img {
+   height: 200px;
+   border-radius: 5px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+   margin-bottom: 45px;
+   box-shadow: 5px 5px 5px 2px gray;
+
 }
-.img-3{
+
+.img-3 {
    height: 200px;
    width: 270px;
-    margin: 20px;
-}
-.img-10{
-      height: 200px;
-      width: 270px;
-       margin: 20px;
-
-
-}
-.img-8{
-      height: 200px;
-      width: 270px;
-       margin: 20px;
-
-
-}
-.img-4{
-      height: 200px;
-      width: 280px;
-       margin: 20px;
-
-
-}
-.img-5{
-      height: 200px;
-      width: 280px;
-       margin: 20px;
-
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+   margin-bottom: 45px;
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px 2px gray;
 
 }
 
-.img-6{
-      height: 200px;
-      width: 280px;
-       margin: 20px;
+.img-10 {
+   height: 200px;
+   width: 270px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+     margin-bottom: 45px;
+ border-radius: 5px;
+    box-shadow: 5px 5px 5px 2px gray;
+}
 
+.img-8 {
+   height: 200px;
+   width: 270px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+     margin-bottom: 45px;
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px 2px gray;
+}
+
+.img-4 {
+   height: 200px;
+   width: 280px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+  margin-bottom: 45px;
+   border-radius: 5px;
+      box-shadow: 5px 5px 5px 2px gray;
+}
+
+.img-5 {
+   height: 200px;
+   width: 280px;
+   margin-left: 10px;
+   margin-right: 10px;
+margin-top: 10px; 
+  margin-bottom: 45px;
+   border-radius: 5px;
+      box-shadow: 5px 5px 5px 2px gray;
 
 }
-.parent{
+
+.img-6 {
+   height: 200px;
+   width: 280px;
+   margin-left: 10px;
+   margin-right: 10px;
+margin-top: 10px;
+  margin-bottom: 45px;
+   border-radius: 5px;
+      box-shadow: 5px 5px 5px 2px gray;
+
+}
+
+.parent {
    display: flex;
    flex-direction: row;
+   justify-content: space-around;
    flex-wrap: wrap;
    margin: 10px;
 
+
+}
+
+.box {
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   align-items: end;
+
+
+
+}
+
+.btn {
+   position: absolute;
+   margin-left: 90px;
+  background-color: bisque;
+  border: 1px solid #ffcc00;
+  border-radius: 5px;
+  margin-top: 30px;
+
+
+}
+.btn:hover{
+   background-color: #ff8000;
+   border: 1px solid black;
+
+}
+.img-text{
+   position: absolute;
+   margin-top: 530px;
+   margin-left: 90px;
+   background-color: aliceblue;
+   box-shadow: 3px 3px 10px 1px gray;
+   border-radius: 5px;
+}
    
-}
-.box{
-
-
-}
-
-
-
+  
